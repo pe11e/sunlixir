@@ -1,0 +1,8 @@
+services: 
+  sunlixir:
+    container_name: sunlixir
+    build: .
+    ports: 
+      - 4000:4000
+    volumes: 
+      - .:/app

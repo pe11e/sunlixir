@@ -1,0 +1,4 @@
+#!/bin/zsh
+
+docker run -it --mount type=bind,source=$PWD,target=/app --rm elixir-env:latest mix
+

@@ -1,0 +1,3 @@
+#!/bin/zsh
+
+docker run -it --net=host --env-file=.env --mount type=bind,source=$PWD,target=/app --rm elixir-env:latest iex -S mix
