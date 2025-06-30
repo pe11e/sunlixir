@@ -59,33 +59,6 @@ defmodule Api.Endpoints.PowerStation do
     end
   end
 
-  #   appkey
-  # :
-  # "B0455FBE7AA0328DB57B59AA729F05D8"
-  # date_id
-  # :
-  # "20240603"
-  # date_type
-  # :
-  # "1"
-  # lang
-  # :
-  # "_en_US"
-  # minute_interval
-  # :
-  # "5"
-  # ps_id
-  # :
-  # 5200216
-  # sys_code
-  # :
-  # 200
-  # token
-  # :
-  # "221591_2e2451f6c9fa4a2c812def497b79073e"
-  # version_tag
-  # :
-  # "1"
   def get_house_hold_storage_ps_report(credentials) do
     headers = [
       {:limit_object, credentials}
